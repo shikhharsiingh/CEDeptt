@@ -1,0 +1,103 @@
+.parallax1 { 
+	background-image: url("https://infrastructuremagazine.com.au/wp-content/uploads/2018/06/shutterstock_269761259.jpg");
+	/* Set a specific height */
+	height: 500px; 
+
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.parallax2 { 
+	background-image: url("targ1.jpg");
+	/* Set a specific height */
+	height: 500px; 
+
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.parallax3 { 
+	background-image: url("targ2.jpg");
+	/* Set a specific height */
+	height: 500px; 
+
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.parallax4 { 
+	background-image: url("targ3.png");
+	/* Set a specific height */
+	height: 500px; 
+
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.parallax1 h1{
+	font-family: arial;
+	width: 100%;
+	background-color: white;
+	font-size: 7vw;
+	margin:0 auto;
+	padding:10px;
+	text-align: center;
+	mix-blend-mode:screen;
+	color:black;
+	position: absolute;
+	top:20px;
+	opacity: 0.9;
+}
+.container{
+	position:relative;
+	margin: 0px 0px 150px 0;
+	mix-blend-mode:screen;
+	color:black;
+}
+.parallax2 p, .parallax3 p, .parallax4 p{
+	background-color: #121212;
+	font-size: 3.5vw;
+	position:absolute;
+	bottom:-10%;
+/*	margin: 0 50px;*/
+/*	font-family: 'Noto Sans', sans-serif;*/
+/*	mix-blend-mode:screen;*/
+	color:white;
+	padding:55px;
+	text-align: center;
+	opacity: 0.7;
+	
+}
+.parallax2 p{
+	padding:45px
+}
+.parallax1 p {
+	color: white;
+		font-size: 3.5vw;
+		position:absolute;
+		top:160px;
+		margin: 0 10px;
+/*		text-align: center;*/
+}
+.mission{
+	font-family: Arial;
+	text-align: center;
+	font-size: 8vw;
+	color: white;
+}
+h2{
+	font-size: 5vw;
+	color: white;
+	font-family: 'Noto-sans', sans-serif;
+	padding:10px;
+}

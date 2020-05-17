@@ -1,0 +1,71 @@
+.quickmenu{
+	background-color: #22bdff;
+	z-index: 3;
+/*	font-size: 2vw;*/
+	width:80px;
+	position: fixed;
+	top:19%;
+	text-align: center;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	transition: 1s ease;
+	overflow: hidden;
+}
+.quickmenu ul{
+	list-style-type: none;
+}
+#burg,.navi{
+	margin: 10px 10px 12px 10px;
+	font-size: 2vw;
+	text-align: center;
+	margin-bottom: 0;
+	transition: .3s ease;
+}
+.quickmenu a{
+	text-decoration: none;
+	color: black;
+	transition: 0.3s ease;
+}
+.quickmenu ul{
+	margin-top:-30px ;
+	text-align: left;
+	padding: 12px 0 12px ;
+	height:0px;
+	overflow: hidden;
+	transition: height 1s;
+}
+.quickmenu:hover ul{
+	height:250px;
+}
+.quickmenu li{
+	margin:14px 7px 0px 20px;
+	font-size: 1.7vw;
+	transition: border 0.3s ease;
+}
+.quickmenu:hover div{
+	color:white;
+}
+.quickmenu li:hover a{
+	color: white;
+}
+.quickmenu li:hover{
+	border-right: solid 4px #0059b3;
+}
+.quickmenu:hover{
+	width: 250px;
+}
+.qmtitle{
+/*	text-align: center;*/
+margin: 0 auto;
+/*	display: inline-flex;*/
+	width: 100%;
+}
+.quickmenu hr{
+		border:solid 0.5px #0059b3;
+		background-color: #0059b3;
+		position: relative;
+		width:100%;
+		left:0;
+		
+	}
+

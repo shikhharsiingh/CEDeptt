@@ -1,0 +1,641 @@
+
+html{
+	overflow-x: hidden;
+}
+body{
+	margin:0px;
+	font-family: roboto;
+	background:url("Code-on-Computer-Screen-Hero.gif");
+	background-attachment: fixed;
+	background-position:center;
+	background-repeat: no-repeat;
+	background-size:cover ;
+	overflow-x: hidden;
+}
+
+
+.heading{
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
+	padding:1.5vw;
+	background-color: white;
+	position:sticky;
+}
+.nitkkr{
+	text-align: center;
+	color:#cb2310;
+	float:left;
+	height:8vw;
+	vertical-align: middle;
+	font-weight:300;
+	font-size: 1.1vw;
+}
+.logo{
+	width:30vw;
+	float:left;
+	margin-top: 1vw;
+	height:8vw;
+}
+
+.title{
+	font-size:3.2vw;
+	font-family:sans-serif ;
+	font-weight: 700;
+	color:#00739e;
+	width: 23vw;
+	margin-left:auto;
+	margin-right:auto;
+}
+.badge{
+	float:left;
+	height:5.5vw;
+}
+.navbar{
+	background-color: #22bdff;
+	color:black;
+	box-shadow: 0 6px 8px 0 rgba(0,0,0,0.2);
+	cursor:default;
+	display:flex;
+	font-size:1.5vw; 
+	position: relative;
+}
+.nav{
+	text-decoration: none;
+	color:black;
+	border-bottom:solid 0.25vw #22bdff;
+	transition:border 0.5s ease,color 0.5s ease;
+	margin:0 0.8vw;
+	float: right;
+}
+
+.nav:hover, .home:hover{
+	border-bottom: solid 0.25vw #0059b3;
+	color:white;
+}
+.navbar .left .burger{
+	transition: color 0.5s;
+	padding:0.6vw 1vw;
+	color:inherit;
+	cursor:pointer; 
+	border-right:solid 1px #454545;
+	line-height: 3.2vw;
+}
+.navbar .left .burger:hover{
+	color:white;
+}
+.home{
+	text-decoration:none;
+	padding:0.6vw;
+	color:black;
+	border-bottom: solid 0.25vw #22bdff;
+	transition: border 0.2s ease-in, color 0.2s ease-in;
+}
+.left{
+	margin-top:0.3vw;
+	width:24vw;
+	float:left;
+	display:flex;
+		
+}
+.right{
+/*	position: absolute;*/
+	margin-top: 0.3vw;
+	padding:0.6vw 0.6vw 0vw;
+	display: flex;
+	top:0.1vw;
+	right:0;
+	margin-left: auto;
+}
+.button a{
+	text-decoration: none;
+	color:black;
+	transition: 0.4s;
+	z-index: 100;
+	width:100%;	
+	display: block;
+}
+
+.button {
+	transition:0.4s;
+	display:inline-block;
+	margin:0 0.5vw;
+	padding:0 0 0.5vw;
+	border-bottom: solid 0.25vw #22bdff;
+	float: right;
+	z-index: 100;
+	cursor: hand;
+}
+.sublinks{
+	position: relative;
+	width:inherit;
+}
+.sublinks a{
+	text-decoration: none;
+	color:black;
+	z-index:1;
+	}
+		
+.sublinks ul{
+	height:0;
+	transition:height 0.5s ease-out;
+	overflow:hidden;
+	list-style-type: none;
+	margin:0.4vh;
+	background: #22bdff;
+	width:inherit;
+	
+}
+.sublinks ul li{
+	margin: 0.2em 0;
+	z-index:2;
+	margin-left: -1.8vw;
+	padding:0.1vw;
+	
+}
+.sublinks ul li a{
+	color:black;
+	transition: color 0.15s ease-in;	
+}
+
+.sublinks ul li a:hover{
+	color:white;
+}
+.capsule:hover .button{
+/*	color:white;*/
+	border-bottom-color: #0059b3;
+}
+.capsule:hover .button a{
+	color:white;
+	cursor: pointer;
+}
+.prgrms:hover  .sublinks ul{
+	height:11.5vw;
+}
+.prgrms hr{
+	border:solid 0.5px #0059b3;
+	background-color: #0059b3;
+	position: relative;
+	width:100%;
+	left:0;
+	
+}
+
+.rsrch:hover  .sublinks ul{
+	height:9vw;
+}
+
+.DA:hover .sublinks ul{
+	height:4.2vw;
+}
+
+.rsrch{
+	width:13.1em;
+}
+
+
+.DA{
+	width:11.5em;
+}
+
+.prgrms{
+	width:5em;
+}
+.prgrms ul{
+	width:8em;
+	margin-left: -0.8vw;
+}
+
+.prgrms,.DA,.rsrch{
+	z-index:2;
+}
+
+.hod{
+	border: solid 0.5px white;
+	border-radius: 300px;
+	vertical-align: top;
+	margin-left:auto;
+	margin-right:auto;
+	height: 15vw;
+	width:15vw;
+}
+.card{
+	background-color: white;
+	border:solid 0.5px white;
+	border-top:solid .2vw #22bdff;
+	border-bottom-right-radius:14px;
+	border-bottom-left-radius:14px;
+	border-bottom: solid 0.2vw #22bdff;
+	padding: 1em;
+	box-shadow: 0 0 10px 0 rgba(0,0,0,0.7);
+	height:25vw;
+	width:100%;
+	text-align: center;
+	margin-left: auto;
+}
+.message{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 2vw;
+}
+.desig{
+	font-family:roboto;
+	font-size: 1.5vw;
+	text-align: center;
+}
+
+
+
+/*Main*/
+.anothercontainer{
+	width:100%;
+	float:left;
+	display:block;
+	height:100%;
+	position:relative;
+	border-top: solid 0.2vw #22bdff;
+	background: #22bdff;
+	box-shadow: inset 0 0 10px 0 rgba(0,0,0,0.2);
+}
+
+/*Dropdown Menu*/
+.lab,.vm,.ach,.plac,.fac{
+	border-left:solid .2vw #22bdff;
+	border-bottom:solid .2vw #22bdff;
+	float:left;
+	width:30vw;
+}
+.aboutus{
+	position: absolute;
+	background: #22bdff;
+	border: solid 0.2vw #22bdff;
+	width:35.5vw;
+	height: 19.5vw;
+}
+.aboutus .grid{
+	background: url("https://cdn0.iconfinder.com/data/icons/dashboard-vol-2-flat/48/Dashboard_Vol._2-23-512.png");
+	background-size: 120%;
+	background-position-y: -40px;
+	background-position-x: 50%;
+	height: 100%;
+}
+.aboutus .grid .mission{
+	line-height: 16vw;
+	vertical-align: center;
+}
+.vm{
+	position: absolute;
+	left:35.6vw;
+}
+.vm .grid. .mission div{
+	position:absolute;
+	top:40%;
+}
+.vm .mission b{
+	position:absolute;
+	top:23%;
+	left:1%;
+}
+.vm .mission{
+	position:relative;
+}
+.vm,.plac,.fac{
+	width:34vw;
+	box-shadow: -1px 0px 5px -1px rgba(0,0,0,0.6);
+}
+
+.lab .grid .mission,.plac .grid .mission,.ach .grid .mission{
+	margin:3.5vw 0;
+	font-size:3vw;
+	vertical-align:middle;
+	width:100%;
+	height:40%;
+	position: relative;
+}
+.lab{
+	right:0;
+	position:absolute;
+}
+
+.lab  .grid{
+	background: url("server.jpg");
+/*	background-origin: 50% 50%;*/
+	background-size: 100%;
+	background-position-x: -3.5px;
+	height:19vw;
+	vertical-align: middle;
+	position: relative;
+}
+.lab .grid .mission{
+	line-height: 7vw;
+	position: absolute;
+	top:41.5%;
+}
+
+.plac .grid{
+	background: url("https://www.oysterconnect.com/blogs/wp-content/uploads/2019/10/The-Exam-Cram_-How-to-Manage-That-Last-Minute-Prep-Stress_-9-1.png");
+	background-position-y: -15px;
+	background-size: 100%;
+}
+.plac{
+	position:absolute;
+	top:38.9%;
+	left:35.59%;
+	height:31%;
+	box-shadow: ;
+}
+.plac .grid, .fac .grid, .ach .grid{
+	height:100%
+}
+.fac{
+	position: absolute;
+	top:70.5%;
+	left:35.6%;
+	height:29%;
+}
+.fac .grid{
+	background:url("https://cloudblogs.microsoft.com/industry-blog/wp-content/uploads/2017/09/17249_MSFT_BryantU_CustomerStoryMIB_Embed1_R1_V1.jpg");
+	background-size:100%;
+	background-position-y: 40%;
+}
+.fac .mission{
+	position:relative;
+}
+.fac b{
+	line-height: 10vw;
+}
+.ach{
+	position:absolute;
+	bottom:0;
+	right:0;
+	height:50.4%;
+}
+.ach .grid{
+	position: relative;
+}
+.ach .mission{
+	position:absolute;
+	top:30%;
+}
+.ach .grid{
+	background: url("https://www.datocms-assets.com/7756/1555405528-achievementcv.jpg");
+	background-size: 100%;
+}
+.ach .grid b{
+	position:absolute;
+	top:25%;
+	left:10%;
+	
+}
+
+
+
+/*Dropdown Menu*/
+
+.grid {
+	background-image: url("https://infrastructuremagazine.com.au/wp-content/uploads/2018/06/shutterstock_269761259.jpg");
+	background-origin: 50% 50%;
+	background-size: 100%;
+	z-index:1;
+	width:100%;
+	height:15vw;
+	overflow:hidden;
+	display:block;
+	vertical-align: middle;
+	cursor:pointer;
+	float:left;
+	text-align: center;
+}
+.mission{
+	background: white;
+	width:66.666%;
+	height:100%;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top: 20%;
+	background-color: white;
+	font-family: arial;
+	font-size: 3.2vw; 
+	font-weight: bolder;
+	text-align: center;
+	mix-blend-mode: screen;
+	padding:1vw 0 0 0;
+	transition: transform 0.4s;
+	box-shadow:0 0 8px 0 rgba(0,0,0,0.2),0 0 8px 0 rgba(0,0,0,0.2);
+	position:relative;
+	color:black;
+	opacity:0.8;
+}
+
+.grid:hover .mission{
+	transform: scale(1.2);
+}
+.po{
+	font-size: 1.2v;
+}
+.parent{
+	width:100%;
+	height:30vw;
+	position:relative;
+	overflow:hidden;
+}
+.parent:after{
+	content:'';
+	background:url("cedept.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width:100%;
+	height:30vw;
+	position:absolute;
+	top:0;
+	left:0;
+	opacity:0.2;
+}
+.child{
+	background:url("cedept.jpeg");
+	background-size: cover;
+	position:relative;
+	z-index:1;
+	height:100%;
+	width:80vw;
+	background-repeat:no-repeat;
+	left:10%;
+	box-shadow: 0 0 8px 0 rgba(0,0,0,0.4);
+	transition:transform 0.4s ease-out;
+}
+
+.back{
+	height:30vw;
+	background:white;
+	margin-bottom: 1vw;
+	box-shadow: inset 0 0 4px 0 rgba(0,0,0,2);
+	border-bottom: solid 0.25vw #22bdff;
+	border-top: solid 0.25vw #22bdff;
+}
+.child:hover{
+transform:scale(1.01);
+}
+
+
+
+
+.front{
+	vertical-align: middle;
+	height: 100%;
+}
+
+
+
+
+main{
+	display:block;
+	height:39vw;
+	background: white;
+}
+footer{
+	display:block;
+}
+
+
+.slider{
+		width:35.6vw;
+		overflow:hidden;
+		margin:0 auto;
+		box-shadow: 0 0 10px 0 rgba(0,0,0,0.4);
+		height:19vw;
+		position:absolute;
+		bottom:0;
+/*		right:0;	*/
+		border-top: solid .2vw #22bdff;
+		border-right: solid .2vw #22bdff;
+		border-bottom: solid 0.2vw #22bdff;
+	}
+	.slider figure div{
+		float:left;
+		width:20%;
+		height:100%;
+	}
+	.slider figure img{
+		width:100%;
+		height:100%;
+		float:left;
+	}
+	.slide{
+		position: relative;
+	}
+	.slider figure{
+		position:relative;
+		width:500%;
+		margin:0px;
+		left:0;
+		animation: 15s ss infinite;
+	}
+	
+@keyframes ss{
+		0%{
+			left:0%;
+		}
+		23%{
+			left:0%;
+		}
+		26%{
+			left:-100%;
+		}
+		49%{
+			left:-100%;
+		}
+		51%{
+			left:-200%;
+		}				
+		75%{
+			left:-200%;
+		}
+		77%{
+			left:-300%;
+		}
+		98%{
+			left:-300%;
+		}
+		100%{
+			left:0%;
+		}
+}
+a.gridlinks{
+	text-decoration: none;
+}
+main{
+	
+	border-bottom: solid 0.2vw #22bdff;
+}
+
+.slide img{
+	transform-origin: 0 -30%;
+}
+
+.prgrms :hover .xyz, .rsrch :hover .xyz, .DA:hover .xyz{
+	color:#0059b3;
+}
+
+
+
+
+.address{
+	text-align: center;
+	width:30vw;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+	font-weight: bold;
+	font-size: 1.5vw;
+	color:#cb2310;
+	font-family: 'Noto Sans', sans-serif;
+	line-height: 3vw;
+}
+
+
+
+.foot{
+	width:100%;
+	background:white;
+	padding:.81em;
+	color:#0059b3;
+	font-size:2vw;
+/*	font-weight: bold;*/
+	border-top: solid 3px #22bdff;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	position: relative;
+}
+
+.vert{
+/*	position:absolute;*/
+/*	right:30vw;*/
+/*	top:8vw;*/
+/*	transform: rotate(90deg);*/
+/*	width:12vw;*/
+	border: solid 0.5px #0059b3;
+}
+.social{
+	font-size: 2vw;
+}
+.fa.fa-facebook,.fa.fa-youtube-play, .fa.fa-twitter, .fa.fa-instagram{
+	border: solid 1.5px #0059b3;
+	padding:7px;
+	margin:2px;
+	border-radius: 25px;
+	transition:all 1s;
+}
+.fa.fa-facebook{
+	padding:6px 12px;
+}
+.fa.fa-instagram{
+	padding:6px 8px;
+}
+.fa.fa-twitter{
+	padding:6px 7px;
+}
+.fa.fa-facebook:hover,.fa.fa-youtube-play:hover, .fa.fa-twitter:hover, .fa.fa-instagram:hover{
+	border-style:dashed;
+	cursor: pointer;
+}
+.social a{
+	color: #0059b3;
+}
+

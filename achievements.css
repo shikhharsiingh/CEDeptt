@@ -1,0 +1,87 @@
+b,i{
+	color:#0059b3;
+}
+table{
+	margin: 0 auto;
+}
+h2,h3{
+	display: block;
+	font-family: sans-serif;
+	color:#0059b3;
+}
+/*ul{*/
+/*	list-style-type: none;*/
+/*}*/
+li{
+	margin:8px 0;
+}
+i{
+	font-weight: bolder;
+}
+
+#b1{
+	background: url("https://nanotempertech.com/wp-content/uploads/2020/01/conference-audience-ft-1024x586.png");
+	background-position-y: -400px;
+	background-size: 100%;
+}
+#b2{
+	background:url("https://leaderonomics.com/wp-content/uploads/2019/05/Conference-speaker_confidence_xl.jpg");
+	background-size: 100%;
+	background-position-y: -450px;
+	float:left;	
+}
+#b3{
+	background:url("https://dbd9tuf69my4k.cloudfront.net/wp-content/uploads/2018/08/28122338/winnerweb.jpg");
+		background-size: 100%;
+		background-position-y: -150px;	
+}
+#b4{
+	background:url("https://americanprofile.com/wp-content/uploads/2012/01/g-pen-writing-on-paper-670x405.jpg");
+	background-size: 100%;
+	background-position-y: -600px;
+	float:left;	
+}
+#b5{
+	background:url("https://www.incimages.com/uploaded_files/image/970x450/getty_933383882_2000133420009280345_410292.jpg");
+	background-size: 100%;
+	background-position-y: -350px;	
+}
+#b6{
+	background:url("https://hbr.org/resources/images/article_assets/2020/03/Mar20_12_115049941.jpg");
+	background-size: 100%;
+	background-position-y: -350px;	
+}
+#b7{
+	background:url("https://www.pinclipart.com/picdir/big/491-4912784_clip-art-library-library-world-svg-continent-blank.png");
+		background-size: 200%;
+		background-position-y: -180px;	
+}
+#b8{
+	background:url("https://www.pinclipart.com/picdir/big/491-4912784_clip-art-library-library-world-svg-continent-blank.png");
+		background-size: 200%;
+		background-position-y: -330px;	
+		background-position-x: 700px;
+}
+#b9{
+	background:url("https://www.pinclipart.com/picdir/big/491-4912784_clip-art-library-library-world-svg-continent-blank.png");
+		background-size: 200%;
+		background-position-y: -1000px;	
+		background-position-x: 700px;
+}
+#b10{
+	background:url("https://www.pinclipart.com/picdir/big/491-4912784_clip-art-library-library-world-svg-continent-blank.png");
+		background-size: 200%;
+		background-position-y: -500px;	
+		background-position-x: -1300px;
+}
+
+td{
+	text-align: left;
+}
+.mid{
+	text-align: center;
+}
+/*.DAchieve button,.DAchieve .content{*/
+/*	width:50%;*/
+/*}*/
+

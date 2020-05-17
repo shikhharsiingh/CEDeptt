@@ -1,0 +1,199 @@
+html{
+	background: url("Code-on-Computer-Screen-Hero.gif");
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow-x: hidden;
+	font-family: Roboto;
+	position: relative;
+	background-attachment: fixed;
+}
+body{
+	padding: 0;
+	margin: 0;
+	position: relative;
+	overflow-x:hidden ;
+}
+.heading{
+	background:white;
+	padding: 1.7vw;
+	margin:0;
+	display: flex;
+	position: relative;
+	border-bottom: solid 0.3vw #22bdff;
+	box-shadow: 0 0 8px 4px rgba(0,0,0,0.4);
+}
+.heading img{
+	padding-right: 1vw;
+	border-right: solid 0.1vw #00739e;
+}
+.cdeptt{
+	vertical-align: middle;
+	font-size: 1.9vw;
+	line-height: 4vw;
+	float: right;
+	margin-left: 0.5vw;
+	color: #00739e;
+}
+.cdeptt a{
+	text-decoration: none;
+	color:#00739e;
+}
+.heading .title{
+	font-size: 4vw;
+	font-weight: bold;
+	margin-left: auto;
+	margin-right: auto;
+	position: absolute;
+	left:42.5%;
+	color:#0059b3;
+	font-family: Arial;
+}
+.logo{
+	width:4vw;
+}
+.icon{
+	float:left;
+}
+.para{
+	background: white;
+	box-shadow: 0 0 8px 10px rgba(0,0,0,0.4);
+	padding:2vw;
+	margin:7vw 0vw;
+	font-size: 1.5vw;
+	position:relative;
+	z-index:2;
+}
+.para h1{
+	font-family: Arial;
+	font-size: 3vw;
+	color: #0059b3;
+	opacity:0.9;
+}
+
+.paragraph{
+	background-color: #f1f1f1;
+	padding:20px;
+}
+.foot{
+	width:100%;
+	background:white;
+	padding:.81em;
+	color:#0059b3;
+	font-size:2vw;
+/*	font-weight: bold;*/
+	border-top: solid 3px #22bdff;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	position: relative;
+}
+.overlay {
+	/* Height & width depends on how you want to reveal the overlay (see JS below) */    
+	height: 100%;
+	width: 0;
+	position: fixed; /* Stay in place */
+	z-index: 3; /* Sit on top */
+	left: 0;
+	top: 0;
+	background-color: white; /* Black w/opacity */
+	overflow-x: hidden; /* Disable horizontal scroll */
+	transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+	border-right: solid 0.2vw #22bdff;
+}
+
+/* Position the content inside the overlay */
+.overlay-content {
+	position: relative;
+	top: 15%; /* 25% from the top */
+	width: 100%; /* 100% width */
+	text-align: left; /* Centered text/links */
+	margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+	margin-left: 20px;
+	z-index:3;
+}
+
+/* The navigation links inside the overlay */
+.overlay a {
+	padding: 8px;
+	text-decoration: none;
+	font-size: 22px;
+	color: #22bdff;
+	display: block; /* Display block instead of inline */
+	transition: 0.3s; /* Transition effects on hover (color) */
+	z-index:3;
+}
+
+/* When you mouse over the navigation links, change their color */
+.overlay a:hover, .overlay a:focus {
+	color: black;
+}
+
+/* Position the close button (top right corner) */
+.overlay .closebtn {
+	position: absolute;
+	top: 20px;
+	right: 45px;
+	font-size: 60px;
+}
+
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+@media screen and (max-height: 450px) {
+	.overlay a {font-size: 20px}
+	.overlay .closebtn {
+		font-size: 0.6vw;
+		top: 15px;
+		right: 35px;
+	}
+}
+
+.vert{
+/*	position:absolute;*/
+/*	right:30vw;*/
+/*	top:8vw;*/
+/*	transform: rotate(90deg);*/
+/*	width:12vw;*/
+	border: solid 0.5px #0059b3;
+}
+.address{
+	text-align: center;
+	width:30vw;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+	font-weight: bold;
+	font-size: 1.5vw;
+	color:#cb2310;
+	font-family: 'Noto Sans', sans-serif;
+	line-height: 3vw;
+}
+.social{
+	font-size: 2vw;
+}
+.foot .fa.fa-facebook,.foot .fa.fa-youtube-play,.foot .fa.fa-twitter,.foot .fa.fa-instagram, .fa.fa-github{
+	border: solid 1.5px #0059b3;
+	padding:7px;
+	margin:2px;
+	border-radius: 25px;
+	transition:all 1s;
+}
+.foot .fa.fa-facebook{
+	padding:6px 12px;
+}
+.foot .fa.fa-instagram{
+	padding:6px 8px;
+}
+.foot .fa.fa-twitter{
+	padding:6px 7px;
+}
+.fa.fa-github{
+	padding:6px 8px;
+}
+.foot .fa.fa-facebook:hover,.foot .fa.fa-youtube-play:hover,.foot .fa.fa-twitter:hover,.foot .fa.fa-instagram:hover, .fa-github:hover{
+	border-style:dashed;
+	cursor: pointer;
+}
+footer{
+	z-index: 2;
+}
+.social a{
+	color:#0059b3;
+}

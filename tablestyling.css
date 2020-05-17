@@ -1,0 +1,34 @@
+.minimal{
+	margin: 0 auto;
+	border:none;
+}
+table{
+	border-collapse: collapse;
+	text-align: left;
+}
+.minimal th{
+	border-bottom: solid 2px #22bdff;
+}
+ tr{
+/*	text-align: center;*/
+	border-bottom: ;
+}
+ td{
+	border-top: solid 1.5px #ddd;
+	margin: 0;
+}
+td, th{
+	padding:5px 20px;
+}
+tr:nth-child(odd){
+	background-color: #f2f2f2;
+}
+.newspaper{
+	border:solid 2px #22bdff;
+}
+.newspaper th{
+	color: #0059b3;
+}
+th{
+	background-color: white;
+}

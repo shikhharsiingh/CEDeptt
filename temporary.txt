@@ -1,0 +1,18 @@
+class bankacc{
+    char *name;
+    int acc_no;
+    char type_acc;
+    float balance;
+public:
+    void setname(char x[]){
+        name=x;
+    }
+    void setaccno(int x){
+        acc_no=x;
+    }
+    void settype(char x){
+        type_acc=x;
+    }
+    void setbalance(float x){
+        
+    }

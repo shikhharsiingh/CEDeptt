@@ -1,0 +1,16 @@
+main{
+height:100%;
+}
+.row{
+	margin:0 auto;
+	display:flex;
+	width:98%;
+}
+ul li{
+	text-align: left;
+}
+.duo{
+	display:inline-flex;
+	padding: 0;
+	margin: 0;
+}

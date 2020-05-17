@@ -1,0 +1,22 @@
+#b1{
+	background: url("https://www.ippb.org.br/images/capa_site/palestras/2019/chacras-e-experiencias-fora-do-corpo-perguntas-e-respostas-maio-2019.jpeg");
+	background-position-y: -400px;
+	background-size: 100%;
+}
+#b2{
+	background:url("https://i.ebayimg.com/images/g/CesAAOSwIhxZZMGY/s-l300.jpg");
+	background-size: 100%;
+	background-position-y: -450px;
+	float:left;	
+}
+#b4{
+	background:url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQrF3LNdad-w8ZUoLTKU-dE-pufO-nZn9FiloS4tOsDI9yeTt1h&usqp=CAU");
+		background-size: 100%;
+		background-position-y: -150px;	
+}
+#b3{
+	background:url("https://images.template.net/wp-content/uploads/2017/06/Research-Papers.jpg");
+	background-size: 100%;
+	background-position-y: -600px;
+	float:left;	
+}
