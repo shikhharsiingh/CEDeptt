@@ -21,7 +21,7 @@
                     margin-right:auto;
                     padding:
                 }
-                .logo1{
+                .nameField,.passwordField,.logo1{
                     width: 85%;
                     height:30px;
                     display:block;
@@ -29,12 +29,10 @@
                     margin-right:auto;
                     font-size:15px;
                     padding:2px;
-                }
-                #round{
                     border:solid 1px #ddd;
                     border-radius: 6px;
                 }
-                .subm{
+                .submitBtn{
                     margin-left:7.5%;
                     display:block;
                     background-color:#71cf5d;
@@ -46,7 +44,7 @@
                     font-size:20px;
                     width:20%;
                 }
-                button:hover {
+                .submitBtn:hover {
                     background-color:green;
                     border-color:green;
                 }
@@ -55,8 +53,9 @@
     <body>
         <div class="cap"><div><img class="logo" src="Unknown.png" width="150px" alt="Nitkkr">
             </div>
-                            <div>
-                                <br>
+        <div>
+        <br>
+        <div>
             <select class="logo1" style=" padding: 10px;">
                 <option value="Select User">Select User</option>
                 <option value="Teaching">Teaching</option>
@@ -65,12 +64,27 @@
                 <option value="Non Teaching Department">Non Teaching Department</option>
                 </select>
             </div><br><br>
-                    <div>
-                        <input class="logo1" id="round" type="text" placeholder="Enter Username"></div><br><br>
-                    <div>
-                            <input class="logo1" id="round" type="password" placeholder="Enter Password"></div>
+                <div>   
+                <form action="loggedin.html" class="myform">
+                        <input class="nameField"  type="text" placeholder="Enter Username"><br><br>
+                            <input class="passwordField"  type="password" placeholder="Enter Password">
                     <br><br>
-                    <div><button class="subm" type="submit" >Login</button></div>
+                    <input class="submitBtn" type="button" value="Submit">
+                </form>
             </div>
-        </body>
-    </html>
+    <script>
+        const form=document.querySelector('.myform');
+        const nameField=document.querySelector('.nameField');
+        const passwordField=document.querySelector('.passwordField');
+        const submitBtn=document.querySelector('.submitBtn');
+        
+        function update(){
+            if(nameField.value === 'N' && passwordField.value === 'C'){
+                form.submit();
+            }
+        }
+        
+        submitBtn.addEventListener('click', update);
+    </script>
+    </body>
+</html>
