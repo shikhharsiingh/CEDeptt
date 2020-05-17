@@ -4,7 +4,7 @@
 	height: 200px;
 }
 .myname{
-	font-size: 2.5vw;
+	font-size: 30px;
 	vertical-align: middle;
 /*	line-height: 200px;*/
 	margin-left: 10px;
@@ -16,7 +16,7 @@ ul{
 }
 #x2{
 	border-left: solid 10px #22bdff;
-	font-size: 1.8vw;
+	font-size: 27px;
 	padding-bottom: 50px;
 }
 #x3{
@@ -29,6 +29,6 @@ ul{
 }
 #x5{
 	margin-top: -10px;
-	font-size:2.1vw;
+	font-size:31px;
 	padding: 40px 70px;
 }
