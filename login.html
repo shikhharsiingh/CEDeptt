@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+    <head>
+        <meta name="description" content="This is a dummy login page">
+            <meta name="viewport" content="width=device-width
+                , initial-scale=1.0">
+                <title>Login
+                </title>
+                <style>
+                    .cap{
+                        border: solid 1px #ddd;
+                        margin: auto;
+                        width:30%;
+                        margin-top:10%;
+                        padding:1%;
+
+                    }
+                .logo{
+                    display:block;
+                    margin-left:auto;
+                    margin-right:auto;
+                    padding:
+                }
+                .nameField,.passwordField,.logo1{
+                    width: 85%;
+                    height:30px;
+                    display:block;
+                    margin-left:auto;
+                    margin-right:auto;
+                    font-size:15px;
+                    padding:2px;
+                    border:solid 1px #ddd;
+                    border-radius: 6px;
+                }
+                .submitBtn{
+                    margin-left:7.5%;
+                    display:block;
+                    background-color:#71cf5d;
+                    border: solid 1px #71cf5d;
+                    border-radius:7px;
+                    height:40px;
+                    color:white;
+                    text-align:center;
+                    font-size:20px;
+                    width:20%;
+                }
+                .submitBtn:hover {
+                    background-color:green;
+                    border-color:green;
+                }
+                    </style>
+    </head>
+    <body>
+        <div class="cap"><div><img class="logo" src="Unknown.png" width="150px" alt="Nitkkr">
+            </div>
+        <div>
+        <br>
+        <div>
+            <select class="logo1" style=" padding: 10px;">
+                <option value="Select User">Select User</option>
+                <option value="Teaching">Teaching</option>
+                <option value="Student">Student</option>
+                <option value="Non Teching Employee">Non Teaching Employee</option>
+                <option value="Non Teaching Department">Non Teaching Department</option>
+                </select>
+            </div><br><br>
+                <div>   
+                <form action="loggedin.html" class="myform">
+                        <input class="nameField"  type="text" placeholder="Enter Username"><br><br>
+                            <input class="passwordField"  type="password" placeholder="Enter Password">
+                    <br><br>
+                    <input class="submitBtn" type="button" value="Submit">
+                </form>
+            </div>
+    <script>
+        const form=document.querySelector('.myform');
+        const nameField=document.querySelector('.nameField');
+        const passwordField=document.querySelector('.passwordField');
+        const submitBtn=document.querySelector('.submitBtn');
+        
+        function update(){
+            if(nameField.value === 'shikhharsiingh' && passwordField.value === '11913067'){
+                form.submit();
+            }
+        }
+        
+        submitBtn.addEventListener('click', update);
+    </script>
+    </body>
+</html>
